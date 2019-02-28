@@ -7,17 +7,17 @@ var app=express();
 
 
 const googleConfig = {
-    clientId: '968009801440-et80jg6t53i9h7gc07si1l1hm2iqihjq.apps.googleusercontent.com',
-    clientSecret: 'mrHAl981xQXpKSdpHfWERcwm',
-    redirect: 'http://localhost:4200/RedirectHome' // this must match your google api settings
+    clientId: '',//ClientId
+    clientSecret: '', //ClientSeceretKey
+    redirect: ''//redirection link
   };
 
 
 
   const oauth2Client = new google.auth.OAuth2(
-    '968009801440-et80jg6t53i9h7gc07si1l1hm2iqihjq.apps.googleusercontent.com',
-    'mrHAl981xQXpKSdpHfWERcwm',
-    'http://localhost:4200/RedirectHome'
+    '',//ClientId
+    '', //ClientSeceretKe'
+    '' //redirection link
   );
 
   function createConnection() {
